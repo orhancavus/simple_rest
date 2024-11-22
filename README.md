@@ -5,7 +5,7 @@ Author : Orhan Chaushev
 Date   : 13.04.2023
 ```
 
-This is a simple Flask app that provides a "HHello from Python Flask" message at the root URL and a JSON data response at the endpoint `/api/data`.
+This is a simple Flask app that provides a "Hello from Python Flask" message at the root URL and a JSON data response at the endpoint `/api/data`.
 
 ## Installation
 
