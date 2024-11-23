@@ -20,6 +20,12 @@ You can access the app by navigating to the appropriate URLs in your web browser
 - `/` - Returns a "Hello, World!" message.
 - `/api/data` - Returns a JSON data response containing a name, age, and city.
 
+### For production, you should deploy it using a production-ready WSGI server like Gunicorn or uWSGI
+
+```bash
+gunicorn -w 2 -b 127.0.0.1:5000 simple_wsgi_app:app
+```
+
 ## Testing
 
 Unit tests are included in the `tests` directory. You can run the tests by executing `python -m unittest discover tests` or `python -m unittest discover -v`
